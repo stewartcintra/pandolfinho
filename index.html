@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="imagex/png" href="images/logo.ico" />
     <title>Turma do Pandolfinho</title>
     <style>
       body {
@@ -22,10 +23,30 @@
         align-items: center;
         justify-content: center;
         margin-top: 40px;
+        margin-bottom: 10px;
       }
       a {
         font-size: 25px;
         margin-left: 20px;
+        text-decoration: none;
+      }
+      a:link {
+        color: black;
+      }
+
+      /* link que foi visitado */
+      a:visited {
+        color: black;
+      }
+
+      /* mouse over */
+      a:hover {
+        color: #38aa34;
+      }
+
+      /* link selecionado */
+      a:active {
+        color: black;
       }
 
       @media (max-width: 768px) {
@@ -55,14 +76,15 @@
       width="80%"
     />
     <div class="bottom">
-      <img
-        src="images/icon_youtube.png"
-        alt="Centered Image"
-        width="50"
-        height="50"
-      />
+      <img src="images/icon_youtube.png" width="50" height="50" />
       <a href="https://www.youtube.com/@pandolfinho" target="_blank"
         >youtube.com/@pandolfinho</a
+      >
+    </div>
+    <div class="bottom" style="margin-top: 0">
+      <img src="images/icon_email.png" width="45" height="45" />
+      <a href="mailto:contato@pandolfinho.com.br" target="_blank"
+        >contato@pandolfinho.com.br</a
       >
     </div>
   </body>
